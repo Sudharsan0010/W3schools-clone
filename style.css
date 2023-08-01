@@ -1,0 +1,657 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: Verdana,sans-serif;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.same{
+    margin:0px 20px;
+}
+.same1{
+    margin-right: 30px;
+    background-color: #04AA6D;
+    color:white;
+    width: 120px;
+    line-height: 44px;
+    text-align: center;
+    border-radius: 21px;
+}
+.same1:hover{
+    background-color: #29965e;
+}
+.same2{
+    margin-right: 20px;
+    width: 80px;
+    text-align: center;
+    line-height: 44px;
+    border-radius: 21px;
+}
+.same2:hover{
+    background-color:#04AA6D ;
+    color: white;
+}
+.same3{
+    margin-right: 20px;
+    width: 110px;
+    text-align: center;
+    line-height: 44px;
+    border-radius: 21px;
+}
+.same3:hover{
+    background-color:#04AA6D ;
+    color: white; 
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.tutorial{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height:77px;
+}
+.login{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+img{
+    height:77px;
+    width:72px;
+    margin-left: 15px;
+}
+.log{
+    
+    background-color: #04AA6D;
+    color: white;
+
+}
+button:hover{
+    cursor: pointer;
+}
+.main{
+    background-color: #282A35;
+    height:475px;
+    padding:32px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.htmlb{
+    padding-top: 50px;
+    height:475.575px;
+    width:400px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+.html{
+    color:white;
+    font-size: 80px;
+    font-weight: 700;
+}
+.para{
+    color: white;
+    margin:20px 0px;
+    font-size: 20px;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+.demo1{
+    color:white;
+    background-color: #04AA6D;
+    margin-top: 29px;
+    margin-bottom: 20px;
+    width: 220px;
+    line-height: 44px;
+    text-align: center;
+    border-radius: 22px;
+}
+.demo1:hover{
+    background-color: #29965e;
+}
+.demo2{
+    color:black;
+    background-color: #FFF4A3;
+    margin-bottom: 20px;
+    width: 220px;
+    line-height: 44px;
+    text-align: center;
+    border-radius: 22px;
+}
+.demo2:hover{
+    background-color: #ffe261;
+}
+.demo3{
+    color:black;
+    background-color: white;
+    margin-bottom: 20px;
+    width: 220px;
+    line-height: 44px;
+    text-align: center;
+    border-radius: 22px;
+}
+.demo3:hover{
+    background-color:#e0e0e0;
+}
+.main2{
+    background-color: #D9EEE1;
+    height:475px;
+    padding:32px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.cssb{
+    padding-top: 70px;
+    height:475.575px;
+    width:400px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+.css{
+    color:black;
+    font-size: 80px;
+    font-weight: 700;    
+}
+.para1{
+    color: black;
+    margin:20px 0px;  
+    font-size: 20px;
+}
+.demo4{
+    color:white;
+    background-color:#04AA6D;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 220px;
+    line-height: 44px;
+    text-align: center;
+    border-radius: 22px; 
+    font-size: 18px;
+}
+.demo4:hover{
+    background-color: #29965e;
+}
+.demo5{
+    color:white;
+    background-color:#282A35;
+    margin-bottom: 20px;
+    width: 220px;
+    line-height: 44px;
+    text-align: center;
+    border-radius: 22px; 
+    font-size: 18px;
+}
+.demo5:hover{
+    background-color: black;
+}
+.main3{
+    background-color: #FFF4A3;
+    height:475px;
+    padding:32px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+}
+.javab{
+    padding-top: 70px;
+    height:475.575px;
+    width:400px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;    
+}
+.java{
+    color:black;
+    font-size: 60px;
+    font-weight: 700; 
+}
+.para2{
+    color: black;
+    margin:20px 0px;  
+    font-size: 20px;   
+}
+.demo6{
+    color:white;
+    background-color:#04AA6D;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 220px;
+    line-height: 44px;
+    text-align: center;
+    border-radius: 22px; 
+    font-size: 18px;
+}
+.demo6:hover{
+    background-color: #29965e;
+}
+.demo7{
+    color:white;
+    background-color: #282A35;
+    margin-bottom: 20px;
+    width: 220px;
+    line-height: 44px;
+    text-align: center;
+    border-radius: 22px; 
+    font-size: 18px;
+}
+.demo7:hover{
+    background-color: black;
+}
+.main4{
+    background-color: #282A35;
+    height:475px;
+    padding:32px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;      
+}
+.pythb{
+    padding-top: 70px;
+    height:475.575px;
+    width:400px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;     
+}
+.pyth{
+    color:white;
+    font-size: 60px;
+    font-weight: 700;     
+}
+.para3{
+    color: white;
+    margin:20px 0px;  
+    font-size: 20px;     
+}
+.demo8{
+    color:white;
+    background-color:#04AA6D;
+    border-radius: 21px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 220px;
+    line-height: 44px;
+    text-align: center;
+    border-radius: 22px;
+    font-size: 18px;
+}
+.demo8:hover{
+    background-color: #29965e;
+}
+.demo9{
+    color:black;
+    background-color:white;
+    border-radius: 21px;
+    margin-bottom: 20px;
+    width: 220px;
+    line-height: 44px;
+    text-align: center;
+    border-radius: 22px;
+    font-size: 18px;
+}
+.demo9:hover{
+    background-color: #e0e0e0;
+}
+.main5{
+    background-color: white;
+    height:475px;
+    padding:32px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.sqlb{
+    padding-top: 70px;
+    height:475.575px;
+    width:400px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;    
+}
+.sql{
+    color:#282A35;
+    font-size: 60px;
+    font-weight: 700;  
+}
+.para4{
+    color: black;
+    margin:20px 0px;  
+    font-size: 20px;   
+}
+.demo10{
+    color:white;
+    background-color:#04AA6D;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 220px;
+    line-height: 44px;
+    text-align: center;
+    border-radius: 22px;  
+    font-size: 18px;
+}
+.demo10:hover{
+    background-color: #29965e;
+}
+.demo11{
+    color:white;
+    background-color: #282A35;
+    border-radius: 21px;
+    margin-bottom: 20px;
+    width: 220px;
+    line-height: 44px;
+    text-align: center;
+    border-radius: 22px;
+    font-size: 18px;
+}
+.demo11:hover{
+    background-color: black;
+}
+h2{
+    font-size: 45px;
+    font-family: 'Source Sans Pro', sans-serif;;
+}
+.main6{
+    background-color:#282A35;
+    padding: 64px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.php{
+    background-color: #FFC0C7;
+    height:257px;
+    width:600px;
+    margin:21px 35px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.php > div{
+    margin:17px 0px;
+}
+.php div p{
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.phpli{
+    background-color: #282A35;
+    padding:11px 40px;
+    border-radius: 21px;
+}
+.phpli:hover{
+    background-color: black;
+}
+.php a{
+    color:white;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.jquery{
+    background-color: #FFF4A3;
+    height:257px;
+    width:600px; 
+    margin:21px 35px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.jquery > div{
+    margin:17px 0px;
+}
+.jquery div p{
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.jquli{
+    background-color: #282A35;
+    padding:11px 40px;
+    border-radius: 21px;
+}
+.jquli:hover{
+    background-color: black;
+}
+.jquery a{
+    color:white;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.java1{
+    background-color: #F3ECEA;
+    height:257px;
+    width:600px;
+    margin:21px 35px;  
+    border-radius: 5px;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.java1 > div{
+    margin:17px 0px;
+}
+.java1 div p{
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.javli{
+    background-color: #282A35;
+    padding:11px 40px;
+    border-radius: 21px;
+}
+.javli:hover{
+    background-color: black;
+}
+.java1 a{
+    color:white;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.cplus{
+    background-color:#D9EEE1;
+    height:257px;
+    width:600px; 
+    margin:21px 35px; 
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.cplus > div{
+    margin:17px 0px;
+}
+.cplus div p{
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.cplli{
+    background-color: #282A35;
+    padding:11px 40px;
+    border-radius: 21px;
+}
+.cplli:hover{
+    background-color: black;
+}
+.cplus a{
+    color:white;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.w3css{
+    background-color: #96D4D4;
+    width:600px;
+    height:320px;
+    margin:21px 35px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.w3css > div{
+    margin:17px 0px;
+}
+.w3css div p{
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.w3cli{
+    background-color: #282A35;
+    padding:11px 40px;
+    border-radius: 21px;
+}
+.w3cli:hover{
+    background-color: black;
+}
+.w3css a{
+    color:white;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.bootstrap{
+    background-color: #E7E9EB;
+    width:600px;
+    height:320px;  
+    margin:21px 35px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bootstrap > div{
+    margin:10px 0px;
+}
+.bootstrap div p{
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 20px;
+}
+.boomar{
+    padding:20px 0px;
+}
+.booli{
+    background-color: #282A35;
+    padding:11px 40px;
+    border-radius: 21px;
+}
+.booli:hover{
+    background-color: black;
+}
+.bootstrap a{
+    color:white;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.main7{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:78px 0px 95px;
+    background-color: #F3ECEA;
+}
+.main7 > div{
+    margin-bottom: 40px;
+}
+.main7 h1{
+    font-size: 65px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.cpic{
+    width: 150px;
+    height:128px;
+}
+.cpic:hover{
+    cursor:pointer;
+}
+.main7 p{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.main8{
+    display: flex;
+    flex-direction: row;
+    height:150px;
+    background-color: #282A35;
+    padding:20px 20px;
+}
+
+.course{
+    background-color:white;
+    border-radius: 5px;
+    padding:12px 10px;
+    margin:0px 7px;
+    margin-top: 40px;
+    font-size: 15px;
+    font-family:  'Source Sans Pro', sans-serif;
+}
+.course:hover{
+
+}
+.course1{
+    margin:30px 0px;
+}
+.forum{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: 20px;
+}
+.forum1{
+    margin-top: 30px;
+}
+.color{
+    color:white;
+    margin:0px 5px;
+}
+.copyright{
+    color:white;
+    text-align: center;
+}
+.forum1 a:hover{
+    color:#04AA6D;
+}
+.copyright{
+    color: white;
+}
+.main9{
+    background-color: #282A35;
+    height:275px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main9 div{
+    padding: 30px 0px;
+}
+
+.cindy{
+    background-color: #04AA6D;
+    padding:15px 270px;
+    border-radius: 25px;
+    color:white;
+}
